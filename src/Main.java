@@ -4,6 +4,9 @@ import esercizio2.SingleCall;
 
 public class Main {
     public static void main(String[] args) {
+
+        // -----esercizio1
+        
         // Rettangolo rettangolo = new Rettangolo(10, 20);
         // System.out.println(rettangolo.area(rettangolo.getBase(),
         // rettangolo.getAltezza()));
@@ -11,6 +14,10 @@ public class Main {
         // rettangolo.getAltezza()));
         // System.out.println(rettangolo.toString());
         // }
+
+
+
+        // -----esercizio2
         Sim simDate = new Sim();
         simDate.setCalls(new SingleCall[] {
                 new SingleCall("Mario", "3333513622", "00:30:00"),
